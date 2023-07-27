@@ -21,6 +21,7 @@ namespace CarouselViewDemos.Controls
 
         void OnUpdateButtonClicked(object sender, EventArgs e)
         {
+            // R. Wright CV is never set. investigate?
             var linearItemsLayout = CV.ItemsLayout as LinearItemsLayout;
             linearItemsLayout.ItemSpacing = IndexParser.ParseToken(entry.Text);
         }
