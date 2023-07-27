@@ -49,7 +49,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="CommunityToolkit.Maui" Version="1.0.0" />
+	  <PackageReference Include="CommunityToolkit.Maui" Version="5.2.0" />
+	  <PackageReference Include="CommunityToolkit.Maui.Core" Version="5.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="DevHelp\" />
 	</ItemGroup>
 
 </Project>
